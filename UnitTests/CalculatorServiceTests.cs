@@ -70,7 +70,7 @@ namespace UnitTests
         }
 
         [Test]
-        public void GivenDivideWithFractionsInstructionShouldReturnCorrectResult()
+        public void GivenDivideInstructionWithFractionsShouldReturnCorrectResult()
         {
             CalculatorService calculatorService = SetupCalculatorService(new[] { "divide 2", "apply 1" });
 
