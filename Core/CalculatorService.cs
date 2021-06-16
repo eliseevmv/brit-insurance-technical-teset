@@ -3,7 +3,7 @@
 namespace Core
 {
 
-    // In production code this interface  will be used for resolving this class from an IoC container
+    // In production code this interface will be used for resolving this class from an IoC container
     interface ICalculatorService
     {
         decimal Calculate();
